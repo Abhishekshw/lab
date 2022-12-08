@@ -35,10 +35,20 @@ public class StoreEvenNum {
 		System.out.println(A2);
 		return A2;
 	}
-
+public int retrieveEvenNumbers(int N) {// creating method called retriveEvenNumbers
+		int n = 0;
+		for (int i : A1) {// logic for searching first ArrayList
+			if (i == N)
+				n = N;
+		}
 	public static void main(String[] args) {// main method
 		StoreEvenNum n = new StoreEvenNum();// object of StoreEvenNum
 		n.storeEvenNumber(10);// method calling with pasing parameter
 		n.printEvenNumber();
 	}
+	public static void main(String[] args) {// main method
+		Even_number n = new Even_number();// object of StoreEvenNum
+		n.storeEvenNumber(10);// method calling with pasing parameter
+		n.printEvenNumber();
+		n.retrieveEvenNumbers(8);
 }

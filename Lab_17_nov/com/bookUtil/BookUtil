@@ -1,0 +1,29 @@
+package com.bookUtil;
+
+import java.util.Scanner;
+
+public class BookUtil {
+	public static void main(String... args) {
+		// initializing BookStore class
+		BookStore bs = new BookStore();
+		// for loop to take user input to read data from the user for 3 book object
+
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Enter Book Id ");
+			Scanner abid = new Scanner(System.in);
+			String bookId = abid.nextLine();// taling input dfrom user
+			System.out.println("Enter Title:- ");
+			Scanner addtitle = new Scanner(System.in);
+			String title = addtitle.nextLine();// taling input dfrom user
+			System.out.println("Enter Author Name ");
+			Scanner addAuthor = new Scanner(System.in);
+
+			Scanner s = new Scanner(System.in);
+//		String SA = s.nextLine();
+//		bs.searchByAuthor(SA);
+			bs.searchByTitle("c++");
+//		bs.searchByAuthor("Mr.X");
+//		bs.displayAll();
+		}
+	}
+}

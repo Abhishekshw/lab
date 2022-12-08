@@ -1,18 +1,18 @@
 package Lab_17_nov;
 
-//.Wajp to copair two arrayist
+//.Wajp to copaire two arrayist
 import java.util.ArrayList;
 
 public class Compair_twoArratlist {
 	public static void main(String[] args) {
 		ArrayList<String> al = new ArrayList<String>();// object of array list
-		al.add("Red");
+		al.add("Red");//adding element in arraylist
 		al.add("Green");
 		al.add("Black");
 		al.add("White");
 		al.add("Pink");
 		ArrayList<String> al2 = new ArrayList<String>();// object of array list
-		al2.add("Red");
+		al2.add("Red");//adding element in arraylist
 		al2.add("Green");
 		al2.add("Black");
 		al2.add("Pink");
